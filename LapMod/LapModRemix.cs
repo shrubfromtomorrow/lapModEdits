@@ -25,10 +25,10 @@ namespace LapMod
                     {description = roomPassthroughKey.info.description},
                 new OpKeyBinder(roomPassthroughKey, new Vector2(165f, 565f),
                         new Vector2(100f, 25f)) {description = roomPassthroughKey.info.description},
-                new OpLabel(10f, 525f, "Reset keybind")
-                    {description = resetKey.info.description},
-                new OpKeyBinder(resetKey, new Vector2(100f, 520f),
-                        new Vector2(100f, 25f)) {description = resetKey.info.description}
+                //new OpLabel(10f, 525f, "Reset keybind")
+                //    {description = resetKey.info.description},
+                //new OpKeyBinder(resetKey, new Vector2(100f, 520f),
+                //        new Vector2(100f, 25f)) {description = resetKey.info.description}
             });
         }
 
